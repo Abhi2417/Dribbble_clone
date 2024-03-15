@@ -13,7 +13,7 @@ const Footer = () => {
                 <li>For designers</li>
                 <li>Hire talent</li>
                 <li>Inspiration</li>
-                <li>Adverising</li>
+                <li>Advertising</li>
                 <li>Blog</li> 
                 <li>About</li> 
                 <li>Carrers</li> 
