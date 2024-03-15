@@ -15,9 +15,10 @@ const App = () => {
       <Main/>
       <Menu/>
       <Routes>
+      <Route exact path="/" element={< Popular/>}/>
         <Route exact path="/new" element={< New/>}/>
         <Route exact path="/following" element={< Following/>}/>
-        <Route exact path="/popular" element={< Popular/>}/>
+        
       </Routes>
       
       <Footer/>
