@@ -13,7 +13,7 @@ import img25 from "../img/img25.jpg"
 
 const Projects = () => {
   return (
-    <div className="grid grid-cols-4 gap-4 mt-8">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-8 sm:justify-center">
         <div className="max-w-xs mx-2 my-4 flex-grow flex-shrink">
          <img className="rounded-xl w-full h-60 object-cover" src={img18} alt=""/>
          <Project/>

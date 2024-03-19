@@ -7,9 +7,9 @@ const Footer = () => {
   return (
     <>
         <div className="mt-12 w-full text-black px-4 md:px-[100px] flex md:flex-row flex-col space-y-6 md:space-y-0 items-start md:justify-between text-sm md:text-md py-8">
-           <h2 className=" pl-10  text-black font-bold font-style: italic text-2xl">Dribbble</h2>
-           <div className='w-[800px]'> 
-            <ul className='flex item-center justify-evenly ml-8 text-[14px] text-gray-600 font-bold'>
+           <h2 className=" pl-10 flex-col md:flex-row text-black font-bold italic text-2xl md:pl-0 md:text-center md:mb-0">Dribbble</h2>
+           <div className="mt-6 md:flex md:justify-between md:items-center"> 
+            <ul className="md:flex md:space-x-6 md:text-base text-sm pl-10 md:pl-0 text-gray-600 font-bold">
                 <li>For designers</li>
                 <li>Hire talent</li>
                 <li>Inspiration</li>
@@ -22,10 +22,10 @@ const Footer = () => {
            </ul>
 
            </div>
-           <div className=" w-[200px] flex item-center justify-evenly ml-8">
-             <FaTwitter />
-             <FaFacebookSquare />
-             <FaInstagram />
+           <div className=" mt-6  md:mt-0 flex justify-center md:justify-end">
+             <FaTwitter className="ml-10 mr-4"/>
+             <FaFacebookSquare className="mr-4" />
+             <FaInstagram className=" mr-4"/>
              <FaPinterest />
            </div>
            
