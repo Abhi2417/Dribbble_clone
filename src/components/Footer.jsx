@@ -6,9 +6,9 @@ import { FaPinterest } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-        <div className="mt-12 w-full text-black px-4 md:px-[100px] flex md:flex-row flex-col space-y-6 md:space-y-0 items-start md:justify-between text-sm md:text-md py-8">
+        <div className="mt-12 w-full text-black px-4 md:px-[100px] flex flex-col md:flex-row  space-y-6 md:space-y-0 items-center justify-between text-sm md:text-md py-8">
            <h2 className=" pl-10 flex-col md:flex-row text-black font-bold italic text-2xl md:pl-0 md:text-center md:mb-0">Dribbble</h2>
-           <div className="mt-6 md:flex md:justify-between md:items-center"> 
+           <div className="mt-6  md:flex md:justify-between md:items-center"> 
             <ul className="md:flex md:space-x-6 md:text-base text-sm pl-10 md:pl-0 text-gray-600 font-bold">
                 <li>For designers</li>
                 <li>Hire talent</li>

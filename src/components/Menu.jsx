@@ -17,7 +17,7 @@ const Menu = () => {
     <div className="flex flex-col md:flex-row items-center text-[15px] justify-evenly max-w-8xl mt-8 text-gray-600">
         <div className="mb-4 md:mb-0" onClick={showMenu}>
         
-            <button className="items-center justify-between flex border border-gray-400 rounded-md h-8 w-24">
+            <button className="flex items-center justify-between  border border-gray-400 rounded-md h-8 w-24">
               <h2 className="ml-4">Popular</h2>
             < RiArrowDropDownLine />
             </button>

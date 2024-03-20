@@ -2,7 +2,7 @@ import { BsSearch } from "react-icons/bs";
 
 const Navbar = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-between p-6 md:h-20">
+    <div className="flex flex-col md:flex-row justify-between p-6">
       <div className="flex items-center md:w-[440px]">
         <ul className="flex flex-1 justify-between ml-8 text-[14px] text-gray-600 font-bold">
           <li>Find designers</li>
@@ -12,7 +12,7 @@ const Navbar = () => {
           <li>Go Pro</li>
         </ul>
       </div>
-      <div className="flex items-center justify-center md:justify-start">
+      <div className="flex items-center justify-center">
         <h2 className="flex font-bold italic text-xl md:mt-0 sm:mt-8">Dribbble</h2>
       </div>
       <div className="flex items-center justify-between md:w-auto w-full mt-4 md:mt-0">
